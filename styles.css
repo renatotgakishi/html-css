@@ -1,0 +1,79 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #1C2228;
+    color: #f7fff7;
+    height: 100%;
+}
+
+#navbar{
+    background-color: #161A1E!important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.25);
+}
+
+.amenu {
+    color: #44a4cd;
+}
+
+.amenu:hover {
+    color: #333;
+    background: #44a4cd
+}
+.logo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.logo-left{
+    background-color: #ff6b6b;
+    padding: 13px 15px 13px 15px;
+    border-radius: 50%;
+}
+
+.logo-right{
+    background-color: #333;
+    padding: 2px;
+    margin-left: -12px;
+    border-radius: 4px;
+}
+
+#sideBar{
+    height: 100vh;
+    padding-top: 80px;
+    position: fixed;
+    background-color: #191F26;
+}
+
+#dashboard{
+    margin-top: 10px;
+}
+
+.shadow {
+    box-shadow: 0 8px 12px rgba(101, 219, 5, 0.2), 0 5px 6px rgba(248, 246, 246, 0.9);
+}
+
+.section-container {
+    padding: 1em;
+}
+
+.card-theme {
+    background-color: #191F26;    
+    border: 1px;
+    border-radius: 2px;
+}
+
+.card-heading-theme{
+    color: #eee;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 12px;
+}
+
+.card-body-theme{
+    background-color: #494F56;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
